@@ -32,7 +32,7 @@ a {
 .botao {
   border-radius: 5px;
   box-shadow: 0px 3px 0px rgb(110, 32, 67);
-  font-size: clamp(22px, 3vw, 28px);
+  font-size: clamp(20px, 3vw, 28px);
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bolder;
@@ -84,7 +84,7 @@ a {
   outline: none;
   font-weight: lighter;
   padding: 15px;
-  font-size: 24px;
+  font-size: clamp(16px, 3vw, 24px);
   margin-bottom: 8px;
   border: 1px solid #ddd;
   border-radius: 3px;
