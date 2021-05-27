@@ -113,7 +113,8 @@ a {
 /*** AGENDA ***/
 .agenda {
   color: #ffffff;
-  background-image: url(../img/agenda.webp), url(../img/agenda.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/agenda.webp), url(../img/agenda.jpg);
   background-attachment: scroll;
   padding-top: 17px;
   padding-bottom: 14px;
@@ -194,7 +195,8 @@ a {
 /***** PERGUNSTAS FREQUENTES *******/
 .perguntas-frequentes {
   padding: 2rem 0 2rem;
-  background-image: url(../img/agenda.webp), url(../img/agenda.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/agenda.webp), url(../img/agenda.jpg);
 }
 
 .perguntas-frequentes h1 {
@@ -206,9 +208,12 @@ a {
 /***** ACORDION *******/
 
 .accordion {
-  background-color: none;
   border: none;
   background-color: #ffffff;
+}
+
+.card-header.accordion {
+  font-size: clamp(16px, 3vw, 18px);
 }
 
 .btn-link {
@@ -251,6 +256,45 @@ a {
 
 .conteudo-acordion {
   color: #444b56;
+}
+
+/*** LINKS UTEIS ***/
+.links-uteis {
+  background-color: #191c1e;
+  padding: 1.5rem 0 1.5rem;
+}
+
+.links-uteis ul {
+  margin: 0;
+  padding: 0;
+}
+
+.links-uteis ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.links-uteis a {
+  color: #7c7c7c;
+}
+
+.links-uteis a:hover {
+  color: #ffffff;
+}
+
+/*** COPIRIGHT ***/
+.copyright {
+  padding: 2rem 0 2rem;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 14px;
 }
 /********** MOBILE ***************/
 
