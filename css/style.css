@@ -129,31 +129,65 @@ a {
 }
 
 /* DESTAQUE ROSA */
-.destaque-rosa{
+.destaque-rosa {
   color: #ffffff;
   background-color: #a0275d;
   padding: 3rem 0 3rem;
 }
 
-.destaque-rosa h1{
+.destaque-rosa h1 {
   font-size: clamp(22px, 3vw, 38px);
 }
 
-.destaque-rosa ul{
+.destaque-rosa ul {
   margin: 0;
   padding: 0;
 }
 
-.destaque-rosa ul li{
+.destaque-rosa ul li {
   font-size: clamp(16px, 3vw, 26px);
   line-height: clamp(20px, 3vw, 30px);
   list-style: none;
   margin-bottom: 2rem;
 }
 
-.destaque-rosa ul li i{
+.destaque-rosa ul li i {
   font-size: clamp(16px, 3vw, 20px);
-  line-height: clamp(16px, 3vw, 20px);  
+  line-height: clamp(16px, 3vw, 20px);
+}
+
+/*** COMO FUNCIONA ***/
+
+.como-funciona {
+  background-color: #fafafa;
+  padding: 2rem 0 2rem;
+  color: #1a3617;
+}
+
+.como-funciona h1 {
+  font-size: clamp(22px, 3vw, 38px);
+  text-transform: uppercase;
+}
+
+.cards-como-funciona {
+  background-color: #ffffff;
+  -webkit-border-radius: 3px;
+  border-left: 4px solid #a0275d;
+  max-width: 500px;
+  padding: 32px 20px 32px 57px;
+}
+
+.cards-como-funciona h3 {
+  color: #1a3617;
+  font-size: clamp(24px, 3vw, 24px);
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.cards-como-funciona p {
+  font-size: clamp(16px, 3vw, 18px);
+  font-weight: 300;
+  color: #555;
 }
 
 /********** MOBILE ***************/
@@ -165,5 +199,13 @@ a {
 @media (max-width: 584px) {
   .formulario h1 {
     line-height: 60%;
+  }
+
+  .cards-como-funciona {
+    border-left: unset;
+    border-top: 4px solid #a0275d;
+    padding-left: 20px;
+    padding-top: 50px;
+    text-align: center;
   }
 }
