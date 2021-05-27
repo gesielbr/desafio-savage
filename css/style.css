@@ -52,7 +52,7 @@ a {
 .banner {
   color: #ffffff;
   font-size: 16px;
-  background-image: url(../img/desfio.webp), url(../img/desfio.jpg);
+  background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/desafio_savage/img/desfio.webp), url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/desafio_savage/img/desfio.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -114,7 +114,7 @@ a {
 .agenda {
   color: #ffffff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/agenda.webp), url(../img/agenda.jpg);
+    url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/desafio_savage/img/agenda.webp), url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/desafio_savage/img/agenda.jpg);
   background-attachment: scroll;
   padding-top: 17px;
   padding-bottom: 14px;
@@ -196,7 +196,7 @@ a {
 .perguntas-frequentes {
   padding: 2rem 0 2rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/agenda.webp), url(../img/agenda.jpg);
+    url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/desafio_savage/img/agenda.webp), url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/desafio_savage/img/agenda.jpg);
 }
 
 .perguntas-frequentes h1 {
