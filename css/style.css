@@ -44,7 +44,7 @@ a {
   border: 2px solid rgb(160, 39, 93);
 }
 
-.botao:hover{
+.botao:hover {
   margin-top: 3px;
 }
 
@@ -93,6 +93,29 @@ a {
   border: 1px solid #ddd;
   border-radius: 3px;
   color: #a1a1a1;
+}
+
+.formulario .informacoes-seguras{
+  font-size: 18px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 100%;
+}
+
+.formulario .cadeado{
+  font-size: unset;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 100%;
+}
+
+/*** AGENDA ***/
+.agenda {
+  background-image: url(../img/agenda.webp), url(../img/agenda.jpg);
+  background-attachment: scroll;
+  padding-top: 17px;
+  padding-bottom: 14px;
 }
 
 /********** MOBILE ***************/
