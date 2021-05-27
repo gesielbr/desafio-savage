@@ -314,4 +314,8 @@ a {
     padding-top: 50px;
     text-align: center;
   }
+
+  .btn-link {
+    width: 90%;
+  }
 }
