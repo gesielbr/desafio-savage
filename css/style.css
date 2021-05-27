@@ -171,6 +171,7 @@ a {
 
 .cards-como-funciona {
   background-color: #ffffff;
+  border-radius: 3px;
   -webkit-border-radius: 3px;
   border-left: 4px solid #a0275d;
   max-width: 500px;
