@@ -171,6 +171,30 @@ a {
   margin-right: 6px;
 }
 
+/*** DESTAQUE ROSA OBRIGADO ***/
+.destaque-rosa.obrigado {
+  color: #ffffff;
+  background-color: #a0275d;
+  padding: 4rem 0 4rem;
+}
+
+.destaque-rosa.obrigado h1 {
+  margin-bottom: 2rem;
+}
+
+.destaque-rosa.obrigado ul li {
+  font-size: clamp(18px, 3vw, 20px);
+  line-height: clamp(22px, 3vw, 24px);
+  list-style: none;
+  margin-bottom: 3.5rem;
+}
+
+.destaque-rosa.obrigado ul li i {
+  font-size: clamp(20px, 3vw, 40px);
+  line-height: clamp(20px, 3vw, 32px);
+  margin-right: 6px;
+}
+
 /*** COMO FUNCIONA ***/
 
 .como-funciona {
@@ -339,4 +363,28 @@ a {
   .btn-link {
     width: 90%;
   }
+}
+
+/*** OBRIGADO ***/
+
+.inscricao {
+  padding: 2rem 0 2rem;
+  background-color: rgb(249, 249, 249);
+}
+
+.inscricao h1 {
+  color: #a0275d;
+  font-weight: 700;
+  font-size: clamp(16px, 3vw, 30px);
+  max-width: 480px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inscricao p {
+  color: #898989;
+  font-size: 18px;
+  margin-bottom: 35px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 14px;
 }
