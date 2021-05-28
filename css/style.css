@@ -438,6 +438,10 @@ a {
   background-color: #a0275d;
 }
 
+.destaque-dicas{
+  padding-bottom: 0!important;
+}
+
 .dicas .items-container {
   margin: 0 auto;
   width: 40px;
@@ -464,7 +468,7 @@ hr {
 }
 
 .dicas span + div {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .svg {
@@ -483,5 +487,9 @@ hr {
 
   hr {
     max-width: 100%;
+  }
+
+  .dicas span + div {
+    margin-right: 0;
   }
 }
