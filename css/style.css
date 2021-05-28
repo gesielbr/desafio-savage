@@ -183,14 +183,14 @@ a {
 }
 
 .destaque-rosa.obrigado ul li {
-  font-size: clamp(18px, 3vw, 20px);
-  line-height: clamp(22px, 3vw, 24px);
+  font-size: clamp(22px, 3vw, 20px);
+  line-height: clamp(30px, 3vw, 24px);
   list-style: none;
   margin-bottom: 3.5rem;
 }
 
 .destaque-rosa.obrigado ul li i {
-  font-size: clamp(20px, 3vw, 40px);
+  font-size: clamp(34px, 3vw, 40px);
   line-height: clamp(20px, 3vw, 32px);
   margin-right: 6px;
 }
@@ -418,8 +418,52 @@ a {
   margin-top: -2px;
 }
 
+/*** DICAS ***/
+
+.dicas {
+  padding: 3rem 0 3rem;
+  color: #ffffff;
+}
+
+.dicas h1 {
+  color: #a0275d;
+  font-weight: bolder;
+  font-size: clamp(30px, 3vw, 30px);
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-dicas {
+  background-color: #a0275d;
+}
+
+.dicas .items-container {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #8ea8b6;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+hr {
+  border-bottom: 1px dotted #c9c9c9;
+  max-width: 90%;
+}
+
+.dicas span {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
 @media (max-width: 584px) {
-  .btn-telegram{
+  .btn-telegram {
     padding: 30px 10px;
   }
 }
