@@ -460,10 +460,28 @@ hr {
 .dicas span {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
+  line-height: 100%;
+}
+
+.dicas span + div {
+  margin-right: 10px;
+}
+
+.svg {
+  margin-right: 5px;
 }
 
 @media (max-width: 584px) {
   .btn-telegram {
     padding: 30px 10px;
+  }
+
+  .dicas .items-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  hr {
+    max-width: 100%;
   }
 }
